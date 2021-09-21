@@ -3,7 +3,7 @@ html {
 }
 body {
 	margin: 0;
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: Georgia, serif;
 	background: #fff;
 }
 
@@ -30,7 +30,7 @@ h6 {
 
 p {
     margin: 0;
-    color: #777;
+    color: rgb(61, 61, 61);
     font-size: 16px;
     line-height: 1.8;
     letter-spacing: 1px;
@@ -143,11 +143,11 @@ nav ul li ul li:hover {
 /* Background color change on Hover */
 
 nav a:hover {
-    color: #00a8e0;
+    color: #6b9aac;
 }
 
 .menu li.active a {
-    color: #00a8e0;
+    color: #259ece;
 }
 
 /* Hide Dropdowns by Default
@@ -503,7 +503,7 @@ p.newsp {
 }
 h2.w3_head, h3.w3_head {
     font-weight: 400;
-    color: #787878;
+    color: #2e2d2d;
     font-size: 1.5em;
     letter-spacing: 0.075em;
     line-height: 1.35em;
@@ -512,7 +512,7 @@ p.main_p {
     font-size: 1.4em;
     line-height: 1.8em;
     letter-spacing: 0.075em;
-    color: #777;
+    color: rgb(59, 58, 58);
     font-weight: 300;
 }
 section.slide-wrapper-1 {
