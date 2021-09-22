@@ -1,334 +1,209 @@
-<!DOCTYPE html>
-<html lang="zxx">
-<head>
-    <title>Juan's website</title>
-    <link rel="shortcut icon" href="./images/icon.png">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta charset="utf-8" />
-    <meta name="keywords" content="" />
-    <script>
-        addEventListener("load", function () {
-            setTimeout(hideURLbar, 0);
-        }, false);
+<!DOCTYPE HTML>
+<!--
+	Prologue by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Juan's Personal page</title>
+		<link rel="shortcut icon" href="./images/icon.png">
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
 
-        function hideURLbar() {
-            window.scrollTo(0, 1);
-        }
-    </script>
-    <!-- Custom Theme files -->
-    <link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
-    <link href="css/style.css" type="text/css" rel="stylesheet" media="all">
-    <!-- font-awesome icons -->
-    <link href="css/fontawesome-all.min.css" rel="stylesheet">
-    <!-- //Custom Theme files -->
-    <!-- online-fonts -->
-    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900" rel="stylesheet">
-    <!-- //online-fonts -->
-</head>
+		<!-- Header -->
+			<div id="header">
 
-<!-- start of the body -->
-<body>
-    <div class="sidenav">
-		<div class="side_top">
-			<img src="images/t3.jpeg" height="30%" width="30%" alt="news image" class="img-fluid navimg">
-			<h1> Juan Huang </h1>
-		</div>
-		<!-- header -->
-		<header>
-			<div class="container-fluid px-lg-5 ">
-				<nav class="mnu mx-auto">
-                    <label for="drop" class="toggle">Menu</label>
-                    <input type="checkbox" id="drop">
-						<ul class="menu">
-							<li class="active"><a href="index.html">Home</a></li>
-							<li class="mt-sm-3"><a href="#research" class="scroll">Research</a></li>
-							<li class="mt-sm-3"><a href="#publication" class="scroll">Publication</a></li>
-                            <li class="mt-sm-3"><a href="#hobby" class="scroll">Hobbies</a></li>
-                            <li class="mt-sm-3"><a href="#contact" class="scroll">Contact</a></li>
-                        </ul>
-				</nav>
+				<div class="top">
+
+					<!-- Logo -->
+						<div id="logo">
+							<span class="image avatar48"><img src="images/avatar.jpeg" alt="" /></span>
+							<h1 id="title">Juan Huang</h1>
+							<p>Ph.D. Student</p>
+						</div>
+
+					<!-- Nav -->
+						<nav id="nav">
+							<ul>
+								<li><a href="#top" id="top-link"><span class="icon solid fa-home">Intro</span></a></li>
+								<li><a href="#portfolio" id="portfolio-link"><span class="icon solid fa-th">Research</span></a></li>
+								<li><a href="#about" id="about-link"><span class="icon solid fa-user">Publications</span></a></li>
+								<li><a href="#contact" id="contact-link"><span class="icon solid fa-envelope">Contact</span></a></li>
+							</ul>
+						</nav>
+
+				</div>
+
+				<div class="bottom">
+
+					<!-- Social Icons -->
+						<ul class="icons">
+							<li><a href="mailto:name@example.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+							<li><a href="https://github.com/radioheado" class="icon brands fa-github"><span class="label">Github</span></a></li>
+							<li><a href="http://www.linkedin.com/in/juan-huang-cs-gmu" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+							<li><a href="https://goo.gl/maps/1GSCdk1bH3kp1T1s5" class="icon solid fa-map-pin"><span class="label">Address</span></a></li>
+						</ul>
+
+				</div>
+
 			</div>
-		</header>
-    </div>
-    <div class="main" id="about">
-        <div class="banner-text-w3ls">
-            <div class="container">
-                <div class="mx-auto text-left">
-                    
-                    <h2>𝓦𝓮𝓵𝓬𝓸𝓶𝓮
-                        
-					</h2>
-                    <p class="banp mt-5">I am a Ph.D. student majoring in Computer Science at George Mason University.</p>
-                    <a class="btn btn-primary mt-lg-5 mt-3 agile-link-bnr" href="#research" role="button">Learn More</a>
-					
-                </div>
 
-                <div class="mx-auto text-right">
-                    <img src="images/hello.png" height="40%" width="40%" alt="news image" class="img-fluid navimg">
-                </div>
+		<!-- Main -->
+			<div id="main">
 
+				<!-- Intro -->
+					<section id="top" class="one">
+						<div class="container">
 
-            </div>
-        </div>
+							<header>
+								<h2 class="alt"><strong>Welcome!</strong></h2>
+								
+								<p>Hi! I'm <strong>Juan Huang</strong>, 
+									a Ph.D. student majoring in Computer Science at <a href="https://www2.gmu.edu/">George Mason University</a>.<br /></p>
+							</header>
 
-<!-- research -->
-    <section class="gallery" id="research">
-        <div class="container py-lg-5">
-           <h3 class="w3_head mb-5">Research Interests</h3>
-			 <div class="row news-grids mt-lg-5 mt-4 text-center">
-                <div class="col-md-6 gal-img">
-                    <a href="#gal1"><img src="images/g2.jpg" alt="news image" class="img-fluid"></a>
-                </div>
+							<footer>
+								<a href="#portfolio" class="button scrolly">Download CV</a>
+							</footer>
 
-                <div class="col-md-6 proj-1 gal-img">
-                    <a href="#gal2"><img src="images/g3.jpeg" height="420pt" alt="news image" class="img-fluid"></a>
-                </div>
+						</div>
+					</section>
 
-                <div class="col-md-6 mt-5 gal-img">
-                    <a href="#gal3"><img src="images/g4.jpg" alt="news image" class="img-fluid"></a>
-                </div>
+				<!-- Portfolio -->
+					<section id="portfolio" class="two">
+						<div class="container">
 
-                <div class="col-md-6 mt-5 gal-img">
-                    <a href="#gal4"><img src="images/g5.jpg" alt="news image" class="img-fluid"></a>
-                </div>
+							<header>
+								<h2>Research</h2>
+							</header>
 
-                <div class="col-md-6 mt-5 gal-img">
-                    <a href="#gal5"><img src="images/g6.jpg" alt="news image" class="img-fluid"></a>
-                </div>
-                
-                <div class="col-md-6 mt-5 gal-img">
-                    <a href="#gal6"><img src="images/g7.jpg" alt="news image" class="img-fluid"></a>
-                </div>
-            </div>
-        </div>
+							<p>Vitae natoque dictum etiam semper magnis enim feugiat convallis convallis
+							egestas rhoncus ridiculus in quis risus amet curabitur tempor orci penatibus.
+							Tellus erat mauris ipsum fermentum etiam vivamus eget. Nunc nibh morbi quis
+							fusce hendrerit lacus ridiculus.</p>
 
-        <!-- popup-->
-        <div id="gal1" class="pop-overlay animate">
-            <div class="popup">
-                <img src="images/g2.jpg" alt="Popup Image" class="img-fluid" />
-                <p class="mt-4">Artificial Intelligence.</p>
-                <a class="close" href="#gallery">&times;</a>
-            </div>
-        </div>
-        <!-- //popup -->
+							<div class="row">
+								<div class="col-4 col-12-mobile">
+									<article class="item">
+										<a href="#" class="image fit"><img src="images/pic02.jpg" alt="" /></a>
+										<header>
+											<h3>Ipsum Feugiat</h3>
+										</header>
+									</article>
+									<article class="item">
+										<a href="#" class="image fit"><img src="images/pic03.jpg" alt="" /></a>
+										<header>
+											<h3>Rhoncus Semper</h3>
+										</header>
+									</article>
+								</div>
+								<div class="col-4 col-12-mobile">
+									<article class="item">
+										<a href="#" class="image fit"><img src="images/pic04.jpg" alt="" /></a>
+										<header>
+											<h3>Magna Nullam</h3>
+										</header>
+									</article>
+									<article class="item">
+										<a href="#" class="image fit"><img src="images/pic05.jpg" alt="" /></a>
+										<header>
+											<h3>Natoque Vitae</h3>
+										</header>
+									</article>
+								</div>
+								<div class="col-4 col-12-mobile">
+									<article class="item">
+										<a href="#" class="image fit"><img src="images/pic06.jpg" alt="" /></a>
+										<header>
+											<h3>Dolor Penatibus</h3>
+										</header>
+									</article>
+									<article class="item">
+										<a href="#" class="image fit"><img src="images/pic07.jpg" alt="" /></a>
+										<header>
+											<h3>Orci Convallis</h3>
+										</header>
+									</article>
+								</div>
+							</div>
 
-        <!-- popup-->
-        <div id="gal2" class="pop-overlay animate">
-            <div class="popup">
-                <img src="images/g3.jpeg" alt="Popup Image" class="img-fluid" />
-                <p class="mt-4">Machine Learning.</p>
-                <a class="close" href="#gallery">&times;</a>
-            </div>
-        </div>
-        <!-- //popup -->
+						</div>
+					</section>
 
+				<!-- About Me -->
+					<section id="about" class="three">
+						<div class="container">
 
-        <!-- popup-->
-        <div id="gal3" class="pop-overlay animate">
-            <div class="popup">
-                <img src="images/g4.jpg" alt="Popup Image" class="img-fluid" />
-                <p class="mt-4">Nulla viverra pharetra se, eget pulvinar neque pharetra ac int. placerat placerat dolor.</p>
-                <a class="close" href="#gallery">&times;</a>
-            </div>
-        </div>
-        <!-- //popup3 -->
-        <!-- popup-->
-        <div id="gal4" class="pop-overlay animate">
-            <div class="popup">
-                <img src="images/g5.jpg" alt="Popup Image" class="img-fluid" />
-                <p class="mt-4">Nulla viverra pharetra se, eget pulvinar neque pharetra ac int. placerat placerat dolor.</p>
-                <a class="close" href="#gallery">&times;</a>
-            </div>
-        </div>
-        <!-- //popup -->
-        <!-- popup-->
-        <div id="gal5" class="pop-overlay animate">
-            <div class="popup">
-                <img src="images/g6.jpg" alt="Popup Image" class="img-fluid" />
-                <p class="mt-4">Nulla viverra pharetra se, eget pulvinar neque pharetra ac int. placerat placerat dolor.</p>
-                <a class="close" href="#gallery">&times;</a>
-            </div>
-        </div>
-        <!-- //popup -->
-        <!-- popup-->
-        <div id="gal6" class="pop-overlay animate">
-            <div class="popup">
-                <img src="images/g7.jpg" alt="Popup Image" class="img-fluid" />
-                <p class="mt-4">Nulla viverra pharetra se, eget pulvinar neque pharetra ac int. placerat placerat dolor.</p>
-                <a class="close" href="#gallery">&times;</a>
-            </div>
-        </div>
-        <!-- //popup -->
-    </section>
-    <div class="tlinks"></div>
+							<header>
+								<h2>Publications</h2>
+							</header>
 
+							<h4>2020</h4>
+							<p1>Huang J., An Z., Meckl S., Tecuci G., Marcu D., 
+								<a href="https://sic.ici.ro/complementary-approaches-to-instructable-agents-for-advanced-persistent-threats-detection/">
+									Complementary Approaches to Instructable Agents for Advanced Persistent Threats Detection</a>, 
+								<i>Studies in Informatics and Control</i>, 29(3), 2020. Impact Factor 2019: 2.102.
+							</p1>
 
-<!-- publication -->
-			<section class="slide-wrapper" id="publication">
-                    <div class="services">
-					<h3 class="w3_head mb-5">Publications</h3>
-					<div class="row service_w3top mt-5">
-                                <div class="col-lg-6">
-                                    <div class="d-flex services-box">
-                                        <div class="icon">
-                                            <span class="fa fa-pencil"></span>
-                                        </div>
-                                        <!-- .Icon ends here -->
-                                        <div class="service-content">
-                                            <h4>Inagittis Lacg</h4>
-                                            <p>
-                                                Quisque sagittis lacus eu lorem sodalesd vulputate velitdipisc inagittis lacg enean adipiscing.
-                                            </p>
-                                        </div>
-                                        <!-- .Service-content ends here -->
-                                    </div>
-                                    <!-- .Services-box ends here -->
+						</div>
+					</section>
 
-                                    <div class="d-flex services-box">
-                                        <div class="icon">
-                                            <span class="fa fa-rocket"></span>
-                                        </div>
-                                        <!-- .Icon ends here -->
-                                        <div class="service-content">
-                                            <h4>Velitdipisc Inagittis</h4>
-                                            <p>
-                                                Quisque sagittis lacus eu lorem sodalesd vulputate velitdipisc inagittis lacg enean adipiscing.
-                                            </p>
-                                        </div>
-                                        <!-- .Service-content ends here -->
-                                    </div>
-                                    <!-- .Services-box ends here -->
-                                </div>
-                                <!-- .Col ends here -->
-                                <div class="col-lg-6">
-                                    <div class="d-flex services-box">
-                                        <div class="icon">
-                                            <span class="fa fa-laptop"></span>
-                                        </div>
-                                        <!-- .Icon ends here -->
-                                        <div class="service-content">
-                                            <h4>Vulputate Velitdipisc</h4>
-                                            <p>
-                                                Quisque sagittis lacus eu lorem sodalesd vulputate velitdipisc inagittis lacg enean adipiscing.
-                                            </p>
-                                        </div>
-                                        <!-- .Service-content ends here -->
-                                    </div>
-                                    <!-- .Services-box ends here -->
+				<!-- Contact -->
+					<section id="contact" class="four">
+						<div class="container">
 
-                                    <div class="d-flex services-box">
-                                        <div class="icon">
-                                            <span class="fa fa-paint-brush"></span>
-                                        </div>
-                                        <!-- .Icon ends here -->
-                                        <div class="service-content">
-                                            <h4>Sagittis Lacus</h4>
-                                            <p>
-                                                Quisque sagittis lacus eu lorem sodalesd vulputate velitdipisc inagittis lacg enean adipiscing.
-                                            </p>
-                                        </div>
-                                        <!-- .Service-content ends here -->
-                                    </div>
-                                    <!-- .Services-box ends here -->
-                                </div>
-                                <!-- .Col ends here -->
-                            </div>
-                            <!-- .Row ends here -->
-                        <!-- .Container ends here -->
-                    </div>
-                    <!-- .Services ends here -->
-                </section>
-			<!-- //publication -->
+							<header>
+								<h2><b>Contact</b></h2>
+							</header>
 
-<!-- hobby -->
-       <div class="news" id="hobby">
-        <div class="text-left">
-            <h3 class="w3_head mb-5">Hobbies</h3>
-        </div>
-            <div class="row news-grids">
-                <div class="col-lg-6 news-grids-left">
-                    <div class="news_top">
-                        <img src="images/g1.jpg" alt="news image" class="img-fluid">
-                        <h4>Nulla pellentesque</h4>
-                        <p class="newsp">Accumsan orci faucibus id eu lorem semper. Eu ac iaculis </p>
-                    </div>
-                </div>
-                <div class="col-lg-6 news-grids-middle">
-                    <div class="news_top">
-                        <img src="images/g8.jpg" alt="news image" class="img-fluid">
-                        <h4>Nulla pellentesque</h4>
-                        <p class="newsp">Accumsan orci faucibus id eu lorem semper. Eu ac iaculis </p>
-                    </div>
-                </div>
-                <div class="col-lg-6 news-grids-right">
-                    <div class="news_top">
-                        <img src="images/g9.jpg" alt="news image" class="img-fluid">
-                        <h4>Nulla pellentesque</h4>
-                        <p class="newsp">Accumsan orci faucibus id eu lorem semper. Eu ac iaculis </p>
-                    </div>
-                </div>
-                <div class="col-lg-6 news-grids-right">
-                    <div class="news_top">
-                        <img src="images/g10.jpg" alt="news image" class="img-fluid">
-                        <h4>Nulla pellentesque</h4>
-                        <p class="newsp">Accumsan orci faucibus id eu lorem semper. Eu ac iaculis </p>
-                    </div>
-                </div>
-                <div class="col-lg-6 news-grids-right">
-                    <div class="news_top">
-                        <img src="images/g11.jpg" alt="news image" class="img-fluid">
-                        <h4>Nulla pellentesque</h4>
-                        <p class="newsp">Accumsan orci faucibus id eu lorem semper. Eu ac iaculis </p>
-                    </div>
-                </div>
-                <div class="col-lg-6 news-grids-right">
-                    <div class="news_top">
-                        <img src="images/g12.jpg" alt="news image" class="img-fluid">
-                        <h4>Nulla pellentesque</h4>
-                        <p class="newsp">Accumsan orci faucibus id eu lorem semper. Eu ac iaculis </p>
-                    </div>
-                </div>
-            </div>
-            <a class="btn btn-primary mt-lg-5 mt-3 agile-link-bnr" href="#research" role="button">Learn More</a>           
-        </div>
-<!-- //hobby -->
+							<p> If you are interested in my research or need more information, feel free to reach out to me through the methods below! <br /></p>
+								<div class="footerdiv">
+									<ul class="footer-bottom-list">	
+										<li><span class="fa fa-envelope"></span>
+											<a href="mailto:name@example.com"> jhuang21@gmu.edu </a>
+										</li>
+	
+										<li><span class="icon brands fa-github"></span>
+											<a href="https://github.com/radioheado/"> Github </a>
+										</li>
+										
+										<li><span class="icon brands fa-linkedin"></span>
+											<a href="http://www.linkedin.com/in/juan-huang-cs-gmu"> LinkedIn </a>
+										</li>
+										
+										<li><span class="fa fa-map-marker"></span> 
+											<a href="https://goo.gl/maps/1GSCdk1bH3kp1T1s5">4400 Patriot Cir, Fairfax, VA 22030</a>
+										</li>
+									</ul>
+								</div>
 
-<!-- contact -->
-	 <section class="wedo" id="contact">
-		<h3 class="w3_head mb-5"><b>Contact Me </b></h3>
-		   <p class="banp mt-5"> If you are interested in my research or need more information, feel free to reach out to me through the methods below! <br /></p>
-           <br />
-           <ul class="footer-bottom-list">
-            <li>
-                <span class="fa fa-map-marker"></span> 4511 Patriot Cir,
-                <span> Fairfax, VA </span>
-                
-            </li>
+						</div>
+					</section>
 
-            <li>
-                <span class="fa fa-envelope"></span>
-                <a href="mailto:name@example.com"> jhuang21@gmu.edu </a>
-            </li>
-            
-            <li>
-                <span class="fa fa-github"></span>
-                <a href="https://github.com/radioheado/"> Github </a>
-            </li>
-
-            <li>
-                <span class="fa fa-linkedin"></span>
-                <a href="http://www.linkedin.com/in/juan-huang-cs-gmu"> LinkedIn </a>
-            </li>
-    </ul>
-		   
-			<div class="cpy-right text-left">
-				<p><center>Copyright &copy; 2019</center>
-
-				</p>
 			</div>
-	</section>
-	 <!-- //contact -->
-    </div>
 
-</body>
+		<!-- Footer -->
+			<div id="footer">
+
+				<!-- Copyright -->
+					<ul class="copyright">
+						<li>&copy; Prologue. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
 </html>
