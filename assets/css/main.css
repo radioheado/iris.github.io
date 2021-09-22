@@ -88,7 +88,7 @@ input, select, textarea {
 		font-size: 19pt;
 		font-weight: 300;
 		line-height: 1.75em;
-		color: #888;
+		color: rgb(59, 58, 58);
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -158,6 +158,7 @@ input, select, textarea {
 
 	footer {
 		margin: 2em 0 0 0;
+		text-align: center;
 	}
 
 	strong, b {
@@ -172,7 +173,7 @@ input, select, textarea {
 	a {
 		text-decoration: none;
 		color: inherit;
-		border-bottom: dotted 1px rgba(128, 128, 128, 0.5);
+		border-bottom: dotted 1px rgba(39, 39, 39, 0.753);
 		-moz-transition: color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
 		-webkit-transition: color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
 		-ms-transition: color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
@@ -222,6 +223,13 @@ input, select, textarea {
 
 	br.clear {
 		clear: both;
+	}
+	p2 {
+		text-align: center;
+		font-family: 'Times New Roman', Times, serif;
+		color:#666;
+		margin: 0;
+		padding: 0%;
 	}
 
 /* Container */
@@ -2197,6 +2205,10 @@ input, select, textarea {
 		font-size: 0.8em;
 	}
 
+		#footer .footerdiv {
+			background-color: #e8edec !important;
+		}
+
 		#footer .copyright {
 			cursor: default;
 			margin: 0;
@@ -2645,9 +2657,11 @@ input, select, textarea {
 
 	}
 
+	
 /* //contact */
 
 ul.footer-bottom-list li {
+	font-family:cursive;
 	text-align: left;
 	list-style: none;
 	margin-bottom: 1em ;
@@ -2666,10 +2680,3 @@ ul.footer-bottom-list li a {
 	letter-spacing: 1px;
 }
 
-footerdiv {
-	text-align: left;
-	margin: auto;
-	position: absolute;
-	left: 0;
-	right: 0;
-}
